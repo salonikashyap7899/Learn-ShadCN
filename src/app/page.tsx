@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-    <div >
-     <h1 className="text-2xl font-bold bg-red-500">hii</h1>
-    </div>
+   <div className="bg-white dark:bg-black text-black dark:text-white p-4 rounded">
+  This box changes with dark mode
+</div>
   );
 }
